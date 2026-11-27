@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سياسة الخصوصية — Sawa Cash</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f8fafc;
+            color: #1e293b;
+            line-height: 1.8;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+            padding: 40px 32px;
+        }
+        h1 {
+            font-size: 24px;
+            font-weight: 800;
+            color: #dc2626;
+            text-align: center;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #64748b;
+            font-size: 13px;
+            margin-bottom: 32px;
+        }
+        h2 {
+            font-size: 17px;
+            font-weight: 700;
+            color: #1e293b;
+            margin-top: 28px;
+            margin-bottom: 12px;
+            padding-bottom: 6px;
+            border-bottom: 2px solid #f1f5f9;
+        }
+        p {
+            font-size: 14px;
+            color: #475569;
+            margin-bottom: 10px;
+        }
+        ul {
+            padding-right: 20px;
+            margin-bottom: 12px;
+        }
+        li {
+            font-size: 14px;
+            color: #475569;
+            margin-bottom: 6px;
+        }
+        .highlight {
+            background: #fef2f2;
+            border-right: 3px solid #dc2626;
+            padding: 12px 16px;
+            border-radius: 8px;
+            margin: 16px 0;
+        }
+        .highlight p {
+            color: #991b1b;
+            font-weight: 600;
+            font-size: 13px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 32px;
+            padding-top: 20px;
+            border-top: 1px solid #f1f5f9;
+            color: #94a3b8;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>سياسة الخصوصية</h1>
+        <p class="subtitle">آخر تحديث: نوفمبر 2026</p>
+
+        <h2>١. مقدمة</h2>
+        <p>تشرح هذه السياسة كيف يجمع تطبيق Sawa Cash (سوا كاش) بياناتك ويستخدمها ويحميها. سوا كاش يتابع حساباتك ومحافظك الإلكترونية ويسجّل معاملاتك، <strong>ولا يحوّل أموالاً ولا يتحكم في رصيدك</strong>.</p>
+        <p>باستخدامك للتطبيق، أنت توافق على هذه السياسة.</p>
+
+        <h2>٢. البيانات التي نجمعها</h2>
+        <ul>
+            <li><strong>بيانات الحساب:</strong> الاسم، البريد الإلكتروني، رقم الهاتف، وكلمة المرور (مخزّنة مشفّرة بخوارزمية آمنة، لا نحفظها كنص صريح).</li>
+            <li><strong>رسائل SMS:</strong> رسائل المعاملات المالية من المحافظ والبنوك فقط (التفاصيل في القسم ٣).</li>
+            <li><strong>المعاملات والحسابات:</strong> المعاملات المستخرجة، الأرصدة، الخطوط والمحافظ، التصنيفات، والعملاء والديون التي تسجّلها بنفسك.</li>
+            <li><strong>الأجهزة والخطوط:</strong> معرّف الجهاز، بيانات الشريحة (رقم الخط واسم المشغّل) لربط المعاملات بالخط الصحيح، ورمز الإشعارات (Firebase) لإرسال التنبيهات.</li>
+            <li><strong>جهات الاتصال:</strong> لا نرفع دفتر عناوينك. عند اختيارك عميلاً من جهات الاتصال يقرأ التطبيق الاسم والرقم الذي اخترته فقط، وتُطلب الصلاحية وقت الاستخدام فقط.</li>
+            <li><strong>الكاميرا:</strong> تُستخدم لمسح رموز QR لربط جهاز بحسابك، ولا تُحفظ الصور.</li>
+        </ul>
+        <p>لا نجمع بيانات الموقع الجغرافي، ولا نجمع أرقام البطاقات أو رموز التحقق (OTP) أو كلمات المرور البنكية.</p>
+
+        <h2>٣. رسائل SMS</h2>
+        <div class="highlight">
+            <p>يقرأ التطبيق رسائل المعاملات المالية فقط، ويتجاهل رسائل رموز التحقق وكلمات المرور وأرقام PIN وCVV على الجهاز نفسه قبل إرسال أي شيء.</p>
+        </div>
+        <ul>
+            <li>صلاحية قراءة واستقبال SMS هي الوظيفة الأساسية للتطبيق: تسجيل معاملاتك المالية تلقائياً من رسائل المحافظ والبنوك.</li>
+            <li>يُرسل التطبيق إلى السيرفر نص رسالة المعاملة مع البيانات المستخرجة منها (المبلغ، الرصيد، رقم العملية، الطرف الآخر، التاريخ)، ويحتفظ السيرفر بنص الرسالة الأصلي مع المعاملة لمراجعتها وتصحيح التحليل ولعرضها لك، ما دام حسابك قائماً.</li>
+            <li>سجلات SMS التشخيصية (نسخ الرسائل الخام ومحاولات التحليل البديلة والرسائل غير المعروفة) تُحذف تلقائياً بعد 60 يوماً.</li>
+            <li>لا نستخدم رسائلك للإعلانات ولا نبيعها. نستخدمها فقط لتشغيل التطبيق وتحسين دقة قراءة الرسائل لحسابك.</li>
+            <li>يمكنك سحب صلاحية SMS في أي وقت من إعدادات الجهاز، وسيتوقف التسجيل التلقائي.</li>
+        </ul>
+
+        <h2>٤. تخزين البيانات والاحتفاظ بها</h2>
+        <ul>
+            <li>تُخزَّن بياناتك على سيرفر محمي، وتنتقل بين التطبيق والسيرفر عبر اتصال مشفّر (HTTPS).</li>
+            <li>نحتفظ بالبيانات ما دام حسابك قائماً، إلى أن تحذفه أنت أو تطلب حذفه.</li>
+            <li>عند حذف الحساب تُحذف بياناته وما يتبعها نهائياً (المحافظ والمعاملات ورسائل SMS والعملاء والديون والأجهزة والإشعارات).</li>
+            <li>لمنع تكرار الفترات التجريبية المجانية، نحتفظ بعد حذف الحساب ببصمة مشفّرة (hash) للهاتف وللشريحة مع مقدار ما استُخدم من الفترة التجريبية فقط. هذه البصمة لا تحتوي على اسمك أو بريدك أو رقمك أو أي معاملة، ولا يمكن الرجوع منها إلى رقم الهاتف أو الشريحة.</li>
+        </ul>
+
+        <h2>٥. مشاركة البيانات</h2>
+        <p>لا نبيع بياناتك ولا نشاركها لأغراض إعلانية. نستعين بمزوّدي خدمة لتشغيل التطبيق فقط:</p>
+        <ul>
+            <li><strong>Google Firebase Cloud Messaging:</strong> لإرسال الإشعارات إلى جهازك (يستلم رمز الإشعارات ونص التنبيه).</li>
+            <li><strong>أدوات تشغيل داخلية:</strong> إشعار عند وصول دفعة اشتراك (المبلغ والخط المحصّل فقط، دون نص الرسالة أو بيانات الدافع)، وتنبيهات أخطاء تقنية لفريق التشغيل.</li>
+            <li>قد نكشف بيانات إذا فرض القانون ذلك.</li>
+        </ul>
+
+        <h2>٦. الأمان</h2>
+        <ul>
+            <li>اتصال مشفّر (HTTPS) بين التطبيق والسيرفر.</li>
+            <li>كلمات المرور مخزّنة مشفّرة ولا تُحفظ كنص صريح.</li>
+            <li>قفل التطبيق بالبصمة أو الوجه متاح من إعدادات التطبيق.</li>
+            <li>لا يوجد نظام آمن بنسبة 100%، ونعمل على تحديث الحماية باستمرار.</li>
+        </ul>
+
+        <h2>٧. حقوقك</h2>
+        <ul>
+            <li>الاطلاع على بياناتك وتصدير معاملاتك (ملف Excel من بوابة الويب).</li>
+            <li>تعديل بياناتك داخل التطبيق.</li>
+            <li><strong>حذف حسابك وبياناتك نهائياً:</strong> من التطبيق (المزيد ← الحساب ← حذف الحساب)، أو بطلب عبر <a href="delete-account.html">صفحة طلب حذف الحساب</a>.</li>
+        </ul>
+
+        <h2>٨. الأطفال</h2>
+        <p>التطبيق غير موجّه لمن هم دون 18 عاماً، ولا نجمع عمداً بيانات منهم.</p>
+
+        <h2>٩. التغييرات على السياسة</h2>
+        <p>قد نحدّث هذه السياسة، وسنغيّر تاريخ آخر تحديث أعلاها، وننبّه المستخدمين عند التغييرات الجوهرية.</p>
+
+        <h2>١٠. التواصل</h2>
+        <p>للاستفسارات أو طلبات الحذف: <a href="mailto:samersalah97@gmail.com">samersalah97@gmail.com</a> أو صفحة "تواصل معنا" في التطبيق.</p>
+
+        <h2 dir="ltr" style="text-align:left">English summary</h2>
+        <div dir="ltr" style="text-align:left">
+            <p>Sawa Cash tracks your wallets and logs your transactions. It does <strong>not</strong> transfer money or control your balance.</p>
+            <ul>
+                <li><strong>SMS:</strong> the app reads only financial-transaction messages (never OTP, password, PIN or CVV messages, which are filtered on the device). The message text and the extracted details (amount, balance, reference, counterparty, date) are sent to our server and kept with the transaction while your account exists. Diagnostic SMS logs are deleted after 60 days.</li>
+                <li><strong>Other data:</strong> account details, transactions, lines/wallets, customers and debts you enter, device and SIM line information, and a Firebase push token. Contacts are read only for the single contact you pick; they are not uploaded. Camera is used only to scan QR pairing codes.</li>
+                <li><strong>No location data, no card numbers, no ads, no selling of data.</strong> Service providers: Google Firebase Cloud Messaging (push notifications) and internal operational tools (payment notice with amount and line only; technical error alerts).</li>
+                <li><strong>Security:</strong> HTTPS in transit, hashed passwords, optional biometric app lock.</li>
+                <li><strong>Deletion:</strong> delete your account in the app (More → Account → Delete account) or request it at <a href="delete-account.html">/delete-account</a>. All account data is permanently removed, except a one-way hash of the phone and SIM identifiers together with how much of the free trial they used, kept only so a deleted-and-recreated account cannot restart the trial. It contains no name, email, number or transaction.</li>
+                <li><strong>Contact:</strong> <a href="mailto:samersalah97@gmail.com">samersalah97@gmail.com</a></li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p>Sawa Cash © 2026 — جميع الحقوق محفوظة</p>
+        </div>
+    </div>
+</body>
+</html>
